@@ -6,13 +6,13 @@ import { Flame, Wheat } from "lucide-react";
 export const Route = createFileRoute("/menu")({
   head: () => ({
     meta: [
-      { title: "Menu — La Bella Matil · Pizze, taglieri e cucina casereccia" },
+      { title: "Menu — La Bella Matildetta · Pizze, taglieri e cucina casereccia" },
       {
         name: "description",
         content:
-          "Pizze nel forno a legna, opzioni gluten free, taglieri, primi e secondi della tradizione. Scopri il menu della pizzeria La Bella Matil a Galliate.",
+          "Pizze nel forno a legna, opzioni gluten free, taglieri, primi e secondi della tradizione. Scopri il menu della pizzeria La Bella Matildetta a Galliate.",
       },
-      { property: "og:title", content: "Menu · La Bella Matil" },
+      { property: "og:title", content: "Menu · La Bella Matildetta" },
       { property: "og:description", content: "Pizze a legna, gluten free, cucina casereccia." },
     ],
   }),
@@ -44,7 +44,7 @@ const sections: { id: string; title: string; subtitle: string; items: Item[] }[]
       { name: "Quattro formaggi", desc: "Mozzarella, gorgonzola, taleggio, parmigiano 24 mesi", price: "11", gf: true },
       { name: "Bufala & crudo", desc: "Bufala campana DOP, crudo di Parma, rucola", price: "13", gf: true },
       { name: "Tartufata", desc: "Mozzarella, funghi porcini, crema al tartufo nero", price: "14", gf: true },
-      { name: "Matil", desc: "La firma della casa: 'nduja, stracciatella, pomodorini gialli", price: "13", gf: true },
+      { name: "Matildetta", desc: "La firma della casa: 'nduja, stracciatella, pomodorini gialli", price: "13", gf: true },
       { name: "Vegetariana", desc: "Verdure di stagione grigliate, scaglie di grana", price: "11", gf: true },
     ],
   },

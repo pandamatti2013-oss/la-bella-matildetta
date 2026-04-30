@@ -7,7 +7,7 @@ export function SiteFooter() {
       <div className="mx-auto max-w-7xl px-5 md:px-10 py-16 grid gap-12 md:grid-cols-4">
         <div className="md:col-span-2">
           <h3 className="text-display text-3xl mb-3">
-            La Bella <span className="italic text-gradient-ember">Matil</span>
+            La Bella <span className="italic text-gradient-ember">Matildetta</span>
           </h3>
           <p className="text-muted-foreground max-w-sm leading-relaxed">
             Pizzeria con forno a legna e forno dedicato senza glutine. Cucina casereccia
@@ -39,7 +39,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="border-t border-border/50 py-6 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} La Bella Matil · Pizzeria con forno a legna & senza glutine
+        © {new Date().getFullYear()} La Bella Matildetta · Pizzeria con forno a legna & senza glutine
       </div>
     </footer>
   );

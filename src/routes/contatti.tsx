@@ -6,13 +6,13 @@ import { MapPin, Phone, Clock, Mail } from "lucide-react";
 export const Route = createFileRoute("/contatti")({
   head: () => ({
     meta: [
-      { title: "Contatti — La Bella Matil · Pizzeria a Galliate" },
+      { title: "Contatti — La Bella Matildetta · Pizzeria a Galliate" },
       {
         name: "description",
         content:
-          "Prenota un tavolo da La Bella Matil: Via Trieste 102, Galliate (NO). Tel 0321 862363. Forno a legna e forno gluten free dedicato.",
+          "Prenota un tavolo da La Bella Matildetta: Via Trieste 102, Galliate (NO). Tel 0321 862363. Forno a legna e forno gluten free dedicato.",
       },
-      { property: "og:title", content: "Contatti · La Bella Matil" },
+      { property: "og:title", content: "Contatti · La Bella Matildetta" },
       { property: "og:description", content: "Via Trieste 102, Galliate · 0321 862363" },
     ],
   }),
@@ -52,7 +52,7 @@ function ContactPage() {
 
         <div className="md:col-span-3 rounded-2xl overflow-hidden border border-border min-h-[420px] md:min-h-full">
           <iframe
-            title="Mappa La Bella Matil"
+            title="Mappa La Bella Matildetta"
             src="https://www.google.com/maps?q=Via+Trieste+102+Galliate+NO&output=embed"
             className="w-full h-full min-h-[420px] grayscale-[40%] contrast-[110%]"
             loading="lazy"

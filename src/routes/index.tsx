@@ -10,13 +10,13 @@ import pizzaiolo from "@/assets/pizzaiolo.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "La Bella Matil — Pizzeria con forno a legna & Gluten Free a Galliate" },
+      { title: "La Bella Matildetta — Pizzeria con forno a legna & Gluten Free a Galliate" },
       {
         name: "description",
         content:
-          "Pizzeria La Bella Matil a Galliate (NO): pizze cotte nel forno a legna e forno dedicato senza glutine. Cucina casereccia, taglieri, 4,6★ su Google.",
+          "Pizzeria La Bella Matildetta a Galliate (NO): pizze cotte nel forno a legna e forno dedicato senza glutine. Cucina casereccia, taglieri, 4,6★ su Google.",
       },
-      { property: "og:title", content: "La Bella Matil — Pizzeria a Galliate" },
+      { property: "og:title", content: "La Bella Matildetta — Pizzeria a Galliate" },
       { property: "og:description", content: "Forno a legna, forno gluten free dedicato e cucina casereccia." },
       { property: "og:image", content: "/og-home.jpg" },
     ],
@@ -54,7 +54,7 @@ function HomePage() {
       <section className="relative min-h-[100svh] flex items-end overflow-hidden pt-20">
         <img
           src={heroForno}
-          alt="Forno a legna acceso con fiamme della pizzeria La Bella Matil"
+          alt="Forno a legna acceso con fiamme della pizzeria La Bella Matildetta"
           width={1920}
           height={1080}
           className="absolute inset-0 w-full h-full object-cover"

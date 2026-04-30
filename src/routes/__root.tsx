@@ -29,10 +29,10 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "La Bella Matil — Pizzeria a Galliate" },
+      { title: "La Bella Matildetta — Pizzeria a Galliate" },
       { name: "description", content: "Pizzeria con forno a legna e forno gluten free dedicato. Cucina casereccia a Galliate (NO)." },
-      { name: "author", content: "La Bella Matil" },
-      { property: "og:title", content: "La Bella Matil — Pizzeria a Galliate" },
+      { name: "author", content: "La Bella Matildetta" },
+      { property: "og:title", content: "La Bella Matildetta — Pizzeria a Galliate" },
       { property: "og:description", content: "Forno a legna, gluten free, cucina casereccia." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

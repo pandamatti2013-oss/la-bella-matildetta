@@ -16,7 +16,7 @@ export function SiteHeader() {
       <div className="mx-auto max-w-7xl px-5 md:px-10 h-16 md:h-20 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group">
           <span className="text-display text-2xl md:text-3xl tracking-tight">
-            La Bella <span className="italic text-gradient-ember">Matil</span>
+            La Bella <span className="italic text-gradient-ember">Matildetta</span>
           </span>
         </Link>
 

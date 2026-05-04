@@ -33,10 +33,14 @@ export const Route = createRootRoute({
       { name: "description", content: "Pizzeria con forno a legna e forno gluten free dedicato. Cucina casereccia a Galliate (NO)." },
       { name: "author", content: "La Bella Matildetta" },
       { property: "og:title", content: "La Bella Matildetta — Pizzeria a Galliate" },
-      { property: "og:description", content: "Forno a legna, gluten free, cucina casereccia." },
+      { property: "og:description", content: "Pizzeria con forno a legna e forno gluten free dedicato. Cucina casereccia a Galliate (NO)." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "La Bella Matildetta — Pizzeria a Galliate" },
+      { name: "twitter:description", content: "Pizzeria con forno a legna e forno gluten free dedicato. Cucina casereccia a Galliate (NO)." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8ec7ca2d-70ba-4453-b9db-9abc269ae179/id-preview-0e15b758--5258be86-1959-4716-ad9d-724f39d046b1.lovable.app-1777802470260.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8ec7ca2d-70ba-4453-b9db-9abc269ae179/id-preview-0e15b758--5258be86-1959-4716-ad9d-724f39d046b1.lovable.app-1777802470260.png" },
     ],
     links: [
       {

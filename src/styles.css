@@ -122,3 +122,7 @@
   background-clip: text;
   color: transparent;
 }
+
+#lovable-badge {
+  display: none !important;
+}
